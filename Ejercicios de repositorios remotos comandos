@@ -1,0 +1,23 @@
+Ejercicio 1
+git remote add origin https://github.com/MxWSlayer/libro-git.git
+git remote -v
+
+Ejercicio 2
+git push https://github.com/MxWSlayer/libro-git.git master
+
+Ejercicio 3
+git clone https://github.com/Aarduvii/LIBRO-GIT.git
+echo MxWSlayer knucles465@gmail.com> autores.txt
+git add autores.txt
+git commit -m "Añadido autor"
+git push https://github.com/MxWSlayer/libro-git.git master
+
+Ejercicio 4
+git clone https://github.com/MxWSlayer/LIBRO-GIT2.git
+git branch autoria
+git chekout autoria
+echo Aarduvii arturo.pena@linkiafp.madrid>> autores.txt
+git add autores.txt
+git commit -m "Añadido nuevo autor"
+git push https://github.com/MxWSlayer/LIBRO-GIT2.git
+git pull LIBRO-GIT2 autoria
